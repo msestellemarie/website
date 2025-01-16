@@ -6,8 +6,15 @@
     <description>Recent content on Estelle Corey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://estellecorey.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Continuous Deployment for this Blog</title>
+      <link>https://estellecorey.com/posts/blog-cd-1/</link>
+      <pubDate>Thu, 16 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://estellecorey.com/posts/blog-cd-1/</guid>
+      <description>&lt;p&gt;When I first start building infrastructure on AWS, I prefer to manually create everything first. It helps me to sort out the pieces in my brain and also reduces errors once I move to CloudFormation templates.&lt;/p&gt;&#xA;&lt;p&gt;Today, I&amp;rsquo;m creating the initial infrastructure setup for this blog. Eventually, I want this to be much more automated. My vision is to have a CloudFormation template that creates the CodePipeline and any necessary infrastructure. The CodePipeline will trigger on a push to &lt;code&gt;main&lt;/code&gt; in my Github repo. Then it will build the Hugo project and spit out the &lt;code&gt;public&lt;/code&gt; folder into an s3 bucket.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Intro</title>
       <link>https://estellecorey.com/posts/intro/</link>
