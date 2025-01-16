@@ -1,0 +1,26 @@
+{{ define "main" }}
+
+<h1>About</h1>
+
+<p>
+I am a software developer specializing in AWS Cloud Infrastructure and DevOps. I've been working for East5th, Inc. since 2018. Check out my <a href="https://github.com/msestellemarie" target="_blank">Github</a>, send me an <a href="mailto:hello@estellecorey.com">email</a>, or <a href="https://east5th.co/about" target="_blank">work with me</a>.
+</p>
+
+<h1>Latest posts</h1>
+
+<div class="posts-list">
+{{ with .Site.GetPage "/posts" }}
+    {{ range first 5 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
+        <div class="post">
+            <p>
+                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
+                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
+                {{ .Summary }}
+            </p>
+        </div>    
+    {{ end }}
+{{ end }}
+    <a class="posts-link" href="posts/">(See more)</a>
+</div>
+
+{{ end }}
