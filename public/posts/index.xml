@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Estelle Corey</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://estellecorey.com/posts/</link>
     <description>Recent content in Posts on Estelle Corey</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 15 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://estellecorey.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Intro</title>
-      <link>http://localhost:1313/posts/intro/</link>
+      <link>https://estellecorey.com/posts/intro/</link>
       <pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/intro/</guid>
+      <guid>https://estellecorey.com/posts/intro/</guid>
       <description>&lt;p&gt;Hi 👋 I&amp;rsquo;m Estelle Corey. Welcome to my blog! It&amp;rsquo;s nice to meet you. I made a New Year&amp;rsquo;s resolution that I&amp;rsquo;d start blogging again in 2025. This is my first post and I&amp;rsquo;m feeling a bit rusty.&lt;/p&gt;&#xA;&lt;p&gt;It was about seven years ago that I decided I wanted to be a Software Developer. At the time, I was an Industrial Engineer who was shifting more and more into scripting to solve problems. I decided to quit my job, focus all of my energy into Free Code Camp, and blog about it.&lt;/p&gt;</description>
     </item>
   </channel>
