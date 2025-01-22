@@ -1,4 +1,4 @@
-baseURL = 'https://estellecorey.com'
+baseURL = 'https://estellecorey.com/'
 languageCode = 'en-us'
 title = 'Estelle Corey'
 theme = "hugo-theme-console"
