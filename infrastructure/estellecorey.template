@@ -187,7 +187,7 @@
     "githubConnection": {
       "Type": "AWS::CodeStarConnections::Connection",
       "Properties": {
-        "ConnectionName": "pcorey",
+        "ConnectionName": "msestellemarie",
         "ProviderType": "GitHub"
       }
     },
