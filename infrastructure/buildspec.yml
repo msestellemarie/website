@@ -6,6 +6,7 @@ phases:
       - sudo apt install hugo -y
       - yarn
       - echo Current directory is $CODEBUILD_SRC_DIR
+      - ls
       - echo Starting build
       - yarn run build
       - echo Build finished
