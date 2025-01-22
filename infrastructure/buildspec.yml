@@ -6,7 +6,6 @@ phases:
       - sudo apt install hugo -y
       - yarn
       - echo Starting build
-      - hugo --config hugo.toml
       - yarn run build
       - echo Build finished
 artifacts:

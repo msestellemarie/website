@@ -13,7 +13,7 @@
   },
   "scripts": {
     "deploy-estellecorey": "yarn && node infrastructure/estellecorey.js",
-    "build": "hugo"
+    "build": "hugo --config hugo.toml"
   },
   "type": "module"
 }
