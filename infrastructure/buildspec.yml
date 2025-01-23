@@ -2,9 +2,7 @@ version: 0.2
 phases:
   build:
     commands:
-      - npm install -g yarn
       - sudo apt install hugo -y
-      - yarn
       - echo Starting build
       - hugo --config hugo.toml
       - echo Build finished
